@@ -13,7 +13,7 @@ default = ["t2.micro",]
 
 variable "amis" {
 type = list
-default = ["ami-0c2b8ca1dad447f8a",]
+default = ["ami-083ac7c7ecf9bb9b0",]
 }
 
 variable "name_tag" {
