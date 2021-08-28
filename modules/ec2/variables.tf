@@ -13,7 +13,7 @@ type = string
 default = ""
 }
 
-variable "vpc_id" {
+variable "subnet_id" {
 type = string
 default = ""
 }
