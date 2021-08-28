@@ -1,6 +1,6 @@
 variable "instance_type" {
 type = list
-default = ["t2.micro","t2.small",]
+default = ["t2.micro",]
 }
 
 /*variable "amis" {
@@ -13,10 +13,10 @@ default = ["t2.micro","t2.small",]
 
 variable "amis" {
 type = list
-default = ["ami-b374d5a5","ami-4b32be2b",]
+default = ["ami-0c2b8ca1dad447f8a",]
 }
 
 variable "name_tag" {
 type = list
-default = ["server-1","server-2",]
+default = ["server-1",]
 }
