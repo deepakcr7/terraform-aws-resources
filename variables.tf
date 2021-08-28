@@ -21,7 +21,7 @@ type = list
 default = ["server-1",]
 }
 
-variable "vpc_id" {
+variable "subnet_id" {
 type = string
-default = "vpc-07066e70f2a716d7a"
+default = "subnet-016b8b748d37df9c8"
 }
