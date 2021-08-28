@@ -20,3 +20,8 @@ variable "name_tag" {
 type = list
 default = ["server-1",]
 }
+
+variable "vpc_id" {
+type = string
+default = "vpc-07066e70f2a716d7a"
+}
